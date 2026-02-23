@@ -1,6 +1,6 @@
 import {useRef, useEffect} from 'react'
 
-import birdScene from '../assets/3d/bird.glb';
+import birdScene from '../assets/3d/condor_andino.glb';
 import { useAnimations, useGLTF } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 
@@ -8,11 +8,8 @@ const Bird = () => {
     const {scene, animations} = useGLTF(birdScene);
     const birdRef = useRef();
     const {actions} = useAnimations(animations,birdRef);
+ 
 
-    useEffect (() => {
-      actions['Take 001'].play();
-
-    }, [] )
 
     useFrame(({clock, camera}) => {
       // Actualizar el vuelo como si fuera UNA FUNCIOON SENO HELLYEAH.
