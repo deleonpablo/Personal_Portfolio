@@ -31,7 +31,7 @@ const Contact = () => {
        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
       setIsLoading(false);
-      showAlert({show: true, text: 'Message sent successfully!', type: 'success'})
+      showAlert({show: true, text: ' Message sent successfully!', type: 'success'})
 
       setTimeout (() => {
 
@@ -56,7 +56,7 @@ const Contact = () => {
     <section className="relative flex lg:flex-row flex-col
     max-container ">
       {alert.show && <Alert {... alert} />}
-      <Alert {... alert} />
+      
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className ="head-text">
           Get in Touch. </h1>

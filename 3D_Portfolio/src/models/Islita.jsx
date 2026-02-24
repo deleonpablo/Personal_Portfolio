@@ -836,4 +836,4 @@ import islandScene from '../assets/3d/islita.glb' ;
   )
 }
 
-export default Islita
+export default Islita 
