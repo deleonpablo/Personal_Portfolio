@@ -27,3 +27,19 @@ const About = () => {
 }
 
 export default About;
+
+/*
+skills: 
+- Python 
+- Java 
+- SQL  
+- Qiskit 
+- Git 
+- Github 
+- Oracle Apex 
+- Latex 
+- Pandas - falta
+- JavaScript
+
+
+*/ 
