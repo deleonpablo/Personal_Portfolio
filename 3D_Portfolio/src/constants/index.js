@@ -124,6 +124,7 @@ export const experiences = [
     },
 ];
 
+/*
 export const socialLinks = [
     {
         name: 'Contact',
@@ -186,3 +187,4 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
     }
 ];
+*/
