@@ -29,6 +29,7 @@ export {
     twitter,
     car,
     estate,
+    pricewise,
     snapgram,
     summiz,
     threads,
