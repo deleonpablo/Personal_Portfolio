@@ -46,11 +46,11 @@ const renderContent = {
     ),
     2: (
         <InfoBox 
-            text="I'm currently finishing my second year, actively engaging 
-            in personal projects and innovative research."
-            link="/about" 
-            btnText="Learn More!"
+            text="Want to collaborate or keep in touch? I'm only a few keystrokes away."
+            link="/contact"
+            btnText="Let's Talk!"
         />
+       
     ),
     3: (
         <InfoBox 
@@ -60,18 +60,20 @@ const renderContent = {
         />
     ),
     4: (
-        <InfoBox 
-            text="Want to collaborate or keep in touch? I'm only a few keystrokes away."
-            link="/contact"
-            btnText="Let's Talk!"
+         <InfoBox 
+            text="I'm currently finishing my second year, actively engaging 
+            in personal projects and innovative research."
+            link="/about" 
+            btnText="Learn More!"
         />
+    
     )
 }
 
 const HomeInfo = ({ currentStage }) => {
     return (
         /* Cambiamos 'top-28' por 'top-10' o 'top-16' para subirlo más */
-        <div className="absolute top-12 left-0 right-0 z-10 flex items-center justify-center pointer-events-none">
+        <div className="flex items-center justify-center pointer-events-none">
             <div className="pointer-events-auto">
                 {renderContent[currentStage] || null}
             </div>

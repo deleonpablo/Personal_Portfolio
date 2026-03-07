@@ -16,7 +16,7 @@ const Home = () => {
 
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [0, -0.6, 0.8];
+    let screenPosition = [0, -0.5, 0.7];
     let rotation = [0, 0.2, 0];
 
     if(window.innerWidth < 768){
@@ -32,7 +32,7 @@ const Home = () => {
 
     if(window.innerWidth < 768){
       screenScale = [1.5, 1.5, 1.5];
-      screenPosition =[0,-1.5,0 ]
+      screenPosition =[0,-1.5,0]
     } else {
       screenScale = [3,3,3];
       screenPosition = [0,-4,-4]
@@ -46,9 +46,12 @@ const Home = () => {
 
   return (
     <section className="w-full h-screen relative">
-    <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center">
-        {currentStage && <HomeInfo currentStage ={currentStage} /> }
-    </div> 
+      <div className="absolute top-28 left-0 right-0 z-10 flex items-center justify-center pointer-events-none">
+      <div className="pointer-events-auto">
+        {currentStage && <HomeInfo currentStage={currentStage} />}
+      </div>
+    </div>
+
 
  
       <Canvas 
@@ -77,8 +80,8 @@ const Home = () => {
        />
        <Plane
        isRotating = {isRotating}
-       planeScale = {planeScale}
-       planePosition = {planePosition} 
+       Planescale = {planeScale}
+       Planeposition = {planePosition} 
        rotation = {[0,20,0]}
        />
        </Suspense>
