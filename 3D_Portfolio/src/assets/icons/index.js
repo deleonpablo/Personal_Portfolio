@@ -20,6 +20,10 @@ import apex from './apex.svg'
 import latex from './latex.svg'
 import pandas from './pandas.svg'
 import matlab from './matlab.svg'
+import logoParq from './logoParq.svg'
+import react from './react.svg'
+import sudoku from './sudoku.svg'
+import loreal from './loreal.svg'
 
 
 export {
@@ -44,5 +48,10 @@ export {
     apex,
     latex, 
     pandas,
-    matlab
+    matlab,
+    logoParq,
+    react,
+    sudoku,
+    loreal,
+
 }

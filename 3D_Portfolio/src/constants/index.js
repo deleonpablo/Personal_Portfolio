@@ -1,6 +1,6 @@
 import { Neuroscience, Uniandes, flagLabN } from "../assets/images";
 import {
-    car,
+    react,
     contact,
     estate,
     git,
@@ -14,6 +14,10 @@ import {
     latex, 
     pandas,
     matlab,
+    logoParq,
+    sudoku,
+    loreal
+
 } from "../assets/icons";
 
 export const skills = [
@@ -131,32 +135,32 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: github,
+        iconUrl: logoParq,
         theme: 'btn-back-yellow',
         name: 'Parqueame',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        description: 'Developed a Mobile web application A mobile application designed to simplify your parking experience. Parqueame uses real-time data from ESP-32 microcontrollers to locate available parking spots near you, all based on your specific vehicle type and preferences.',
+        link: 'https://github.com/deleonpablo/Parqueame',
     },
     {
-        iconUrl: github,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        iconUrl: react,
+        theme: 'btn-back-red',
+        name: '3D Portfolio',
+        description: 'Created a 3D portfolio website using React and Three.js, showcasing my projects and skills in an interactive and visually appealing way.',
+        link: 'https://github.com/deleonpablo/Personal_Portfolio',
     },
     {
-        iconUrl: github,
+        iconUrl: sudoku,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'COMING SOON... AI AGENT SUDOKU PUZZLE HELPER',
+        description: 'As a sudoku puzzle enthusiast, my next project will be to develop a a sudoku puzzle helper using genetic algorithms and machine learning techniques to assist users in solving sudoku puzzles of varying difficulty levels.',
+        link: 'https://github.com/deleonpablo/EzDoku',
     },
     {
-        iconUrl: github,
+        iconUrl: loreal,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'COMMING SOON... LOREAL Brandstorm URSENSE project',
+        description: 'coming soon... ',
+        link: 'https://brandstorm.loreal.com/en',
     },
 
 
