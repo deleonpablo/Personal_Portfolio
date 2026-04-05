@@ -71,4 +71,4 @@ If you have a project in mind, or just want to reach out, here are my socials:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/3d-portfolio.git](https://github.com/your-username/3d-portfolio.git)
+   git clone [https://github.com/your-username/3d-portfolio.git](https://github.com/deleonpablo/3d-portfolio.git)
